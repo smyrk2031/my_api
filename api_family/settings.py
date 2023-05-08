@@ -123,3 +123,6 @@ STATIC_URL = 'static/'
 # https://docs.djangoproject.com/en/4.1/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+
+# リクエストのデータサイズ上限の変更
+DATA_UPLOAD_MAX_MEMORY_SIZE = 1024 * 1024 * 50 # 50MB
